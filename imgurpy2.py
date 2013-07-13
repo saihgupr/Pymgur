@@ -1,8 +1,12 @@
 import requests, json, base64, os, sys
 from pprint import pprint
-from pyperclip import copy
+# from pyperclip import copy
 from pync import Notifier
 
+def setClipboard(text_copied):
+    outf = os.popen('pbcopy', 'w')
+    outf.write(text)
+    outf.close()
 
 image_path = sys.argv[1]
 f = open(image_path, 'rb')
@@ -23,6 +27,7 @@ if reqSucc:
 	imgURL.encode('ascii','ignore')
 	print imgURL
 	Notifier.notify(imgURL, subtitle='Link copied on the clipboard', title='Image uploaded to Imgur')
-	copy(imgURL)
+	setClipboard(imgURL)
 else:
 	Notifier.notify('Check if everything is right', title='Error uploading the image')
+

@@ -5,7 +5,7 @@ A simple python script + a MAC OS Service to right-click uploading images anonym
 ## Dependences
 * [**Request**][requests]: a python module that handles https request to the imgur API.
 * [**pync**][pync]: the python-wrapper around the [**terminal-notifier**][trmn] awesome tool to deliver notifications in MAC OS 10.8
-* [**pyperclip**][pyperclip]: the module in charge of handling the clipboard (it'd be not longer needed in v0.2)
+* ~~[**pyperclip**][pyperclip]: the module in charge of handling the clipboard (it'd be not longer needed in v0.2)~~
 ## Installation & Usage
 ```git clone
 ```
