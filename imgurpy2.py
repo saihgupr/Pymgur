@@ -5,7 +5,7 @@ from pync import Notifier
 
 def setClipboard(text_copied):
     outf = os.popen('pbcopy', 'w')
-    outf.write(text)
+    outf.write(text_copied)
     outf.close()
 
 image_path = sys.argv[1]
@@ -25,8 +25,8 @@ reqSucc = j['success']
 if reqSucc: 
 	imgURL = j['data']['link']
 	imgURL.encode('ascii','ignore')
-	print imgURL
-	Notifier.notify(imgURL, subtitle='Link copied on the clipboard', title='Image uploaded to Imgur')
+	Notifier.notify(imgURL, subtitle='Link copied on the clipboard', title='Image uploaded to Imgur',
+							open=imgURL)
 	setClipboard(imgURL)
 else:
 	Notifier.notify('Check if everything is right', title='Error uploading the image')
