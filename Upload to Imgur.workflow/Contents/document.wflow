@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>/usr/local/bin/python /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pync/imgurpy2.py "$@" &gt;&gt; hola.txt
+					<string>python /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pync/imgurpy2.py "$@"
 </string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
@@ -170,12 +170,10 @@
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>322.000000:486.000000</string>
+				<string>322.000000:430.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Spanish.lproj/main.nib</string>
 			</dict>

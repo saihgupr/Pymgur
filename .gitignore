@@ -1,2 +1,4 @@
 # MAC trash
 .DS_Store
+# Python compiled
+.pyc
