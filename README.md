@@ -10,14 +10,18 @@ Since I share so many images directly from my desktop with imgur I've made this 
 ```
 git clone
 cd Pymgur
-~~python setup.py install~
+python setup.py install
 sh serviceInstall.sh
 
 ```
 Simple right-click on any [imgur-supported image][imgsup] and select `Upload to imgur` in the contextual menu to upload it anonymously.
+
 ![Screenshot](http://i.imgur.com/omEeUhl.png)
+
 It's link would be displayed as a notification and automatically copied to the clipboard. Once the notification is hidden, you can see it stored in the notification center of your mac, simply by clicking the icon at the top-right corner of your screen:
+
 ![Screenshot](http://i.imgur.com/b9I4ddO.png)
+
 If you uploaded multiple images, clicking on any of them at the notification will open it in your default web browser.
 
 ## TODO:
@@ -32,4 +36,4 @@ See [LICENSE.md][license] for details.
 [pync]: https://github.com/setem/pync
 [imgsup]: http://imgur.com/help/uploading
 [trmn]: https://github.com/alloy/terminal-notifier
-[license]: https://github.com/SamuAlfageme/pymgur/LICENSE.md
+[license]: https://raw.github.com/SamuAlfageme/Pymgur/master/LICENSE.md
