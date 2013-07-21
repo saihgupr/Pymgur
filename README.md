@@ -7,7 +7,7 @@ Since I share so many images directly from my desktop with imgur I've made this 
 
 ## Installation & Usage: 
 ```bash
-git clone
+git clone https://github.com/SamuAlfageme/Pymgur.git
 cd Pymgur
 python setup.py install
 sh serviceInstall.sh
