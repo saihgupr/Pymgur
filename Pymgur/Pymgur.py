@@ -1,4 +1,5 @@
-# PYMGUR v0.7
+#!/usr/bin/env python
+# PYMGUR v0.8
 # A python script to upload images anonimously to imgur.com.
 import urllib2, urllib, base64, json, sys, os
 from pync import Notifier

@@ -6,7 +6,6 @@ Since I share so many images directly from my desktop with imgur I've made this 
 * [**pync**][pync]: the python-wrapper around the [**terminal-notifier**][trmn] awesome tool to deliver notifications in MAC OS 10.8.
 
 ## Installation & Usage: 
-*Not quite ready yet*
 ```bash
 git clone
 cd Pymgur
