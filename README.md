@@ -25,7 +25,6 @@ If you uploaded multiple images, clicking on any of them at the notification cen
 
 ## TODO:
 - Make also available the private upload to your imgur account.
-- Make the pymgur.py module installable.
 
 ## License
 All the repository content is available under the MIT license, **except** for the Automator service which is property of Apple Inc. and the Imgur icon displayed on the notifications, property of Imgur LLC.
