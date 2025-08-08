@@ -39,7 +39,7 @@ brew install terminal-notifier
 ```
 
 ## Main Menu Right Click
-If the “Upload to imgur” option doesn’t appear in the main right-click menu, here’s how to add it.
+If the “Upload to imgur” option doesn’t appear in the main right-click menu, run this applescript.
 
 ```bash
 use AppleScript version "2.4" -- Yosemite (10.10) or later
