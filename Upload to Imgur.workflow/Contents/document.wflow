@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>/usr/local/bin/python /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Pymgur-0.8-py2.7.egg/Pymgur/Pymgur.py "$@"
+					<string>/Library/Frameworks/Python.framework/Versions/3.12/bin/python3 /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/Pymgur-0.8-py3.12.egg/Pymgur/Pymgur.py "$@"
 </string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
