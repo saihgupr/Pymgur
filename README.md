@@ -24,11 +24,11 @@ sh serviceInstall.sh
 ```
 Just right-click on any [imgur-supported image][imgsup] and select `Upload to imgur` in the contextual menu to upload it anonymously.
 
-![Screenshot](http://i.imgur.com/omEeUhl.png)
+![Screenshot](https://i.imgur.com/ylwrRuF.png)
 
 It's link would be displayed as a notification and automatically copied to the clipboard. Once the notification is hidden, you can see it stored in the notification center of your mac, simply by clicking the icon at the top-right corner of your screen:
 
-![Screenshot](http://i.imgur.com/b9I4ddO.png)
+![Screenshot](https://i.imgur.com/iX5SjX7.png)
 
 If you uploaded multiple images, clicking on any of them at the notification center will open it in your default web browser.
 
