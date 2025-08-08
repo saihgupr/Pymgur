@@ -14,9 +14,6 @@ Pymgur is a Python script + macOS Service to right-click upload images anonymous
 - Updated dependencies and installation instructions
 - Bug fixes and improved reliability
 
-## Tech:
-* [**pync**][pync]: the python-wrapper around the [**terminal-notifier**][trmn] awesome tool to deliver notifications in MAC OS 10.8.
-
 ## Installation & Usage: 
 ```bash
 git clone https://github.com/saihgupr/Pymgur.git
